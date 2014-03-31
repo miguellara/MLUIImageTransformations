@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494733F418E9EE55000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494733F318E9EE55000FBC14 /* Foundation.framework */; };
+		494733F918E9EE55000FBC14 /* MLImageFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 494733F818E9EE55000FBC14 /* MLImageFramework.h */; };
+		494733FB18E9EE55000FBC14 /* MLImageFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 494733FA18E9EE55000FBC14 /* MLImageFramework.m */; };
+		4947340218E9EE55000FBC14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947340118E9EE55000FBC14 /* XCTest.framework */; };
+		4947340318E9EE55000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494733F318E9EE55000FBC14 /* Foundation.framework */; };
+		4947340518E9EE55000FBC14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947340418E9EE55000FBC14 /* UIKit.framework */; };
+		4947340818E9EE55000FBC14 /* libMLImageFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494733F018E9EE55000FBC14 /* libMLImageFramework.a */; };
+		4947340E18E9EE55000FBC14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4947340C18E9EE55000FBC14 /* InfoPlist.strings */; };
+		4947341018E9EE55000FBC14 /* MLImageFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947340F18E9EE55000FBC14 /* MLImageFrameworkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4947340618E9EE55000FBC14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494733E818E9EE55000FBC14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494733EF18E9EE55000FBC14;
+			remoteInfo = MLImageFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		494733EE18E9EE55000FBC14 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				494733F918E9EE55000FBC14 /* MLImageFramework.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		494733F018E9EE55000FBC14 /* libMLImageFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMLImageFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		494733F318E9EE55000FBC14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		494733F718E9EE55000FBC14 /* MLImageFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLImageFramework-Prefix.pch"; sourceTree = "<group>"; };
+		494733F818E9EE55000FBC14 /* MLImageFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLImageFramework.h; sourceTree = "<group>"; };
+		494733FA18E9EE55000FBC14 /* MLImageFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLImageFramework.m; sourceTree = "<group>"; };
+		4947340018E9EE55000FBC14 /* MLImageFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLImageFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4947340118E9EE55000FBC14 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4947340418E9EE55000FBC14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4947340B18E9EE55000FBC14 /* MLImageFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLImageFrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		4947340D18E9EE55000FBC14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4947340F18E9EE55000FBC14 /* MLImageFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLImageFrameworkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494733ED18E9EE55000FBC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494733F418E9EE55000FBC14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494733FD18E9EE55000FBC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947340218E9EE55000FBC14 /* XCTest.framework in Frameworks */,
+				4947340818E9EE55000FBC14 /* libMLImageFramework.a in Frameworks */,
+				4947340518E9EE55000FBC14 /* UIKit.framework in Frameworks */,
+				4947340318E9EE55000FBC14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494733E718E9EE55000FBC14 = {
+			isa = PBXGroup;
+			children = (
+				494733F518E9EE55000FBC14 /* MLImageFramework */,
+				4947340918E9EE55000FBC14 /* MLImageFrameworkTests */,
+				494733F218E9EE55000FBC14 /* Frameworks */,
+				494733F118E9EE55000FBC14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494733F118E9EE55000FBC14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494733F018E9EE55000FBC14 /* libMLImageFramework.a */,
+				4947340018E9EE55000FBC14 /* MLImageFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494733F218E9EE55000FBC14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494733F318E9EE55000FBC14 /* Foundation.framework */,
+				4947340118E9EE55000FBC14 /* XCTest.framework */,
+				4947340418E9EE55000FBC14 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		494733F518E9EE55000FBC14 /* MLImageFramework */ = {
+			isa = PBXGroup;
+			children = (
+				494733F818E9EE55000FBC14 /* MLImageFramework.h */,
+				494733FA18E9EE55000FBC14 /* MLImageFramework.m */,
+				494733F618E9EE55000FBC14 /* Supporting Files */,
+			);
+			path = MLImageFramework;
+			sourceTree = "<group>";
+		};
+		494733F618E9EE55000FBC14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				494733F718E9EE55000FBC14 /* MLImageFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4947340918E9EE55000FBC14 /* MLImageFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				4947340F18E9EE55000FBC14 /* MLImageFrameworkTests.m */,
+				4947340A18E9EE55000FBC14 /* Supporting Files */,
+			);
+			path = MLImageFrameworkTests;
+			sourceTree = "<group>";
+		};
+		4947340A18E9EE55000FBC14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4947340B18E9EE55000FBC14 /* MLImageFrameworkTests-Info.plist */,
+				4947340C18E9EE55000FBC14 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494733EF18E9EE55000FBC14 /* MLImageFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4947341318E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLImageFramework" */;
+			buildPhases = (
+				494733EC18E9EE55000FBC14 /* Sources */,
+				494733ED18E9EE55000FBC14 /* Frameworks */,
+				494733EE18E9EE55000FBC14 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLImageFramework;
+			productName = MLImageFramework;
+			productReference = 494733F018E9EE55000FBC14 /* libMLImageFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		494733FF18E9EE55000FBC14 /* MLImageFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4947341618E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLImageFrameworkTests" */;
+			buildPhases = (
+				494733FC18E9EE55000FBC14 /* Sources */,
+				494733FD18E9EE55000FBC14 /* Frameworks */,
+				494733FE18E9EE55000FBC14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4947340718E9EE55000FBC14 /* PBXTargetDependency */,
+			);
+			name = MLImageFrameworkTests;
+			productName = MLImageFrameworkTests;
+			productReference = 4947340018E9EE55000FBC14 /* MLImageFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494733E818E9EE55000FBC14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Miguel Lara";
+			};
+			buildConfigurationList = 494733EB18E9EE55000FBC14 /* Build configuration list for PBXProject "MLImageFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 494733E718E9EE55000FBC14;
+			productRefGroup = 494733F118E9EE55000FBC14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494733EF18E9EE55000FBC14 /* MLImageFramework */,
+				494733FF18E9EE55000FBC14 /* MLImageFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494733FE18E9EE55000FBC14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947340E18E9EE55000FBC14 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494733EC18E9EE55000FBC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494733FB18E9EE55000FBC14 /* MLImageFramework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494733FC18E9EE55000FBC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947341018E9EE55000FBC14 /* MLImageFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4947340718E9EE55000FBC14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494733EF18E9EE55000FBC14 /* MLImageFramework */;
+			targetProxy = 4947340618E9EE55000FBC14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4947340C18E9EE55000FBC14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4947340D18E9EE55000FBC14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4947341118E9EE55000FBC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4947341218E9EE55000FBC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4947341418E9EE55000FBC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MLImageFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLImageFramework/MLImageFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4947341518E9EE55000FBC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MLImageFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLImageFramework/MLImageFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4947341718E9EE55000FBC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLImageFramework/MLImageFramework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MLImageFrameworkTests/MLImageFrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4947341818E9EE55000FBC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLImageFramework/MLImageFramework-Prefix.pch";
+				INFOPLIST_FILE = "MLImageFrameworkTests/MLImageFrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494733EB18E9EE55000FBC14 /* Build configuration list for PBXProject "MLImageFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4947341118E9EE55000FBC14 /* Debug */,
+				4947341218E9EE55000FBC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4947341318E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLImageFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4947341418E9EE55000FBC14 /* Debug */,
+				4947341518E9EE55000FBC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4947341618E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLImageFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4947341718E9EE55000FBC14 /* Debug */,
+				4947341818E9EE55000FBC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494733E818E9EE55000FBC14 /* Project object */;
+}
