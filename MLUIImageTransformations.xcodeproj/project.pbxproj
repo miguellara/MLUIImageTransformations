@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		494733F418E9EE55000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494733F318E9EE55000FBC14 /* Foundation.framework */; };
-		494733F918E9EE55000FBC14 /* MLImageFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 494733F818E9EE55000FBC14 /* MLImageFramework.h */; };
-		494733FB18E9EE55000FBC14 /* MLImageFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 494733FA18E9EE55000FBC14 /* MLImageFramework.m */; };
 		4947340218E9EE55000FBC14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947340118E9EE55000FBC14 /* XCTest.framework */; };
 		4947340318E9EE55000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494733F318E9EE55000FBC14 /* Foundation.framework */; };
 		4947340518E9EE55000FBC14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947340418E9EE55000FBC14 /* UIKit.framework */; };
-		4947340818E9EE55000FBC14 /* libMLImageFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494733F018E9EE55000FBC14 /* libMLImageFramework.a */; };
+		4947340818E9EE55000FBC14 /* libMLUIImageTransformations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494733F018E9EE55000FBC14 /* libMLUIImageTransformations.a */; };
 		4947340E18E9EE55000FBC14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4947340C18E9EE55000FBC14 /* InfoPlist.strings */; };
-		4947341018E9EE55000FBC14 /* MLImageFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947340F18E9EE55000FBC14 /* MLImageFrameworkTests.m */; };
+		4947341018E9EE55000FBC14 /* MLUIImageTransformationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947340F18E9EE55000FBC14 /* MLUIImageTransformationsTests.m */; };
+		4947341B18E9EEA1000FBC14 /* UIImage+MLRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947341A18E9EEA1000FBC14 /* UIImage+MLRounded.m */; };
+		4947342218E9FBA9000FBC14 /* UIImage+MLResized.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947342118E9FBA9000FBC14 /* UIImage+MLResized.m */; };
+		4947342518E9FBB6000FBC14 /* UIImage+MLCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947342418E9FBB6000FBC14 /* UIImage+MLCore.m */; };
+		4947342A18EA17E7000FBC14 /* UIImage+MLFrostedGlass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947342918EA17E7000FBC14 /* UIImage+MLFrostedGlass.m */; };
+		4947342C18EB01F6000FBC14 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947342B18EB01F6000FBC14 /* QuartzCore.framework */; };
+		4947342E18EB021C000FBC14 /* MLGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4947342618E9FEA2000FBC14 /* MLGeometry.h */; };
+		4947342F18EB021C000FBC14 /* UIImage+MLFrostedGlass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4947342818EA17E7000FBC14 /* UIImage+MLFrostedGlass.h */; };
+		4947343018EB021C000FBC14 /* UIImage+MLRounded.h in Headers */ = {isa = PBXBuildFile; fileRef = 4947341918E9EEA1000FBC14 /* UIImage+MLRounded.h */; };
+		4947343118EB021C000FBC14 /* UIImage+MLResized.h in Headers */ = {isa = PBXBuildFile; fileRef = 4947342018E9FBA9000FBC14 /* UIImage+MLResized.h */; };
+		4947343218EB021C000FBC14 /* UIImage+MLCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4947342318E9FBB6000FBC14 /* UIImage+MLCore.h */; };
+		4947343318EB0232000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494733F318E9EE55000FBC14 /* Foundation.framework */; };
+		4947343518EB0236000FBC14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947343418EB0236000FBC14 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +33,7 @@
 			containerPortal = 494733E818E9EE55000FBC14 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 494733EF18E9EE55000FBC14;
-			remoteInfo = MLImageFramework;
+			remoteInfo = MLUIImageTransformations;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,24 +44,33 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				494733F918E9EE55000FBC14 /* MLImageFramework.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		494733F018E9EE55000FBC14 /* libMLImageFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMLImageFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		494733F018E9EE55000FBC14 /* libMLUIImageTransformations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMLUIImageTransformations.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		494733F318E9EE55000FBC14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		494733F718E9EE55000FBC14 /* MLImageFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLImageFramework-Prefix.pch"; sourceTree = "<group>"; };
-		494733F818E9EE55000FBC14 /* MLImageFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLImageFramework.h; sourceTree = "<group>"; };
-		494733FA18E9EE55000FBC14 /* MLImageFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLImageFramework.m; sourceTree = "<group>"; };
-		4947340018E9EE55000FBC14 /* MLImageFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLImageFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		494733F718E9EE55000FBC14 /* MLUIImageTransformations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLUIImageTransformations-Prefix.pch"; sourceTree = "<group>"; };
+		4947340018E9EE55000FBC14 /* MLUIImageTransformationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLUIImageTransformationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4947340118E9EE55000FBC14 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4947340418E9EE55000FBC14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4947340B18E9EE55000FBC14 /* MLImageFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLImageFrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		4947340B18E9EE55000FBC14 /* MLUIImageTransformationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLUIImageTransformationsTests-Info.plist"; sourceTree = "<group>"; };
 		4947340D18E9EE55000FBC14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4947340F18E9EE55000FBC14 /* MLImageFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLImageFrameworkTests.m; sourceTree = "<group>"; };
+		4947340F18E9EE55000FBC14 /* MLUIImageTransformationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLUIImageTransformationsTests.m; sourceTree = "<group>"; };
+		4947341918E9EEA1000FBC14 /* UIImage+MLRounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MLRounded.h"; sourceTree = "<group>"; };
+		4947341A18E9EEA1000FBC14 /* UIImage+MLRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MLRounded.m"; sourceTree = "<group>"; };
+		4947342018E9FBA9000FBC14 /* UIImage+MLResized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MLResized.h"; sourceTree = "<group>"; };
+		4947342118E9FBA9000FBC14 /* UIImage+MLResized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MLResized.m"; sourceTree = "<group>"; };
+		4947342318E9FBB6000FBC14 /* UIImage+MLCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MLCore.h"; sourceTree = "<group>"; };
+		4947342418E9FBB6000FBC14 /* UIImage+MLCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MLCore.m"; sourceTree = "<group>"; };
+		4947342618E9FEA2000FBC14 /* MLGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLGeometry.h; sourceTree = "<group>"; };
+		4947342718EA0FE4000FBC14 /* MLUIImageTransformations.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MLUIImageTransformations.podspec; sourceTree = SOURCE_ROOT; };
+		4947342818EA17E7000FBC14 /* UIImage+MLFrostedGlass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MLFrostedGlass.h"; sourceTree = "<group>"; };
+		4947342918EA17E7000FBC14 /* UIImage+MLFrostedGlass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MLFrostedGlass.m"; sourceTree = "<group>"; };
+		4947342B18EB01F6000FBC14 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4947343418EB0236000FBC14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494733F418E9EE55000FBC14 /* Foundation.framework in Frameworks */,
+				4947343318EB0232000FBC14 /* Foundation.framework in Frameworks */,
+				4947343518EB0236000FBC14 /* UIKit.framework in Frameworks */,
+				4947342C18EB01F6000FBC14 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4947340218E9EE55000FBC14 /* XCTest.framework in Frameworks */,
-				4947340818E9EE55000FBC14 /* libMLImageFramework.a in Frameworks */,
+				4947340818E9EE55000FBC14 /* libMLUIImageTransformations.a in Frameworks */,
 				4947340518E9EE55000FBC14 /* UIKit.framework in Frameworks */,
 				4947340318E9EE55000FBC14 /* Foundation.framework in Frameworks */,
 			);
@@ -81,9 +101,9 @@
 		494733E718E9EE55000FBC14 = {
 			isa = PBXGroup;
 			children = (
-				494733F518E9EE55000FBC14 /* MLImageFramework */,
-				4947340918E9EE55000FBC14 /* MLImageFrameworkTests */,
 				494733F218E9EE55000FBC14 /* Frameworks */,
+				494733F518E9EE55000FBC14 /* MLUIImageTransformations */,
+				4947340918E9EE55000FBC14 /* MLUIImageTransformationsTests */,
 				494733F118E9EE55000FBC14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,8 +111,8 @@
 		494733F118E9EE55000FBC14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				494733F018E9EE55000FBC14 /* libMLImageFramework.a */,
-				4947340018E9EE55000FBC14 /* MLImageFrameworkTests.xctest */,
+				494733F018E9EE55000FBC14 /* libMLUIImageTransformations.a */,
+				4947340018E9EE55000FBC14 /* MLUIImageTransformationsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +120,8 @@
 		494733F218E9EE55000FBC14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4947343418EB0236000FBC14 /* UIKit.framework */,
+				4947342B18EB01F6000FBC14 /* QuartzCore.framework */,
 				494733F318E9EE55000FBC14 /* Foundation.framework */,
 				4947340118E9EE55000FBC14 /* XCTest.framework */,
 				4947340418E9EE55000FBC14 /* UIKit.framework */,
@@ -107,37 +129,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		494733F518E9EE55000FBC14 /* MLImageFramework */ = {
+		494733F518E9EE55000FBC14 /* MLUIImageTransformations */ = {
 			isa = PBXGroup;
 			children = (
-				494733F818E9EE55000FBC14 /* MLImageFramework.h */,
-				494733FA18E9EE55000FBC14 /* MLImageFramework.m */,
+				4947342618E9FEA2000FBC14 /* MLGeometry.h */,
+				4947342318E9FBB6000FBC14 /* UIImage+MLCore.h */,
+				4947342418E9FBB6000FBC14 /* UIImage+MLCore.m */,
+				4947342818EA17E7000FBC14 /* UIImage+MLFrostedGlass.h */,
+				4947342918EA17E7000FBC14 /* UIImage+MLFrostedGlass.m */,
+				4947342018E9FBA9000FBC14 /* UIImage+MLResized.h */,
+				4947342118E9FBA9000FBC14 /* UIImage+MLResized.m */,
+				4947341918E9EEA1000FBC14 /* UIImage+MLRounded.h */,
+				4947341A18E9EEA1000FBC14 /* UIImage+MLRounded.m */,
 				494733F618E9EE55000FBC14 /* Supporting Files */,
 			);
-			path = MLImageFramework;
+			path = MLUIImageTransformations;
 			sourceTree = "<group>";
 		};
 		494733F618E9EE55000FBC14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				494733F718E9EE55000FBC14 /* MLImageFramework-Prefix.pch */,
+				494733F718E9EE55000FBC14 /* MLUIImageTransformations-Prefix.pch */,
+				4947342718EA0FE4000FBC14 /* MLUIImageTransformations.podspec */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4947340918E9EE55000FBC14 /* MLImageFrameworkTests */ = {
+		4947340918E9EE55000FBC14 /* MLUIImageTransformationsTests */ = {
 			isa = PBXGroup;
 			children = (
-				4947340F18E9EE55000FBC14 /* MLImageFrameworkTests.m */,
+				4947340F18E9EE55000FBC14 /* MLUIImageTransformationsTests.m */,
 				4947340A18E9EE55000FBC14 /* Supporting Files */,
 			);
-			path = MLImageFrameworkTests;
+			path = MLUIImageTransformationsTests;
 			sourceTree = "<group>";
 		};
 		4947340A18E9EE55000FBC14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4947340B18E9EE55000FBC14 /* MLImageFrameworkTests-Info.plist */,
+				4947340B18E9EE55000FBC14 /* MLUIImageTransformationsTests-Info.plist */,
 				4947340C18E9EE55000FBC14 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -145,27 +175,43 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4947342D18EB020D000FBC14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947342E18EB021C000FBC14 /* MLGeometry.h in Headers */,
+				4947342F18EB021C000FBC14 /* UIImage+MLFrostedGlass.h in Headers */,
+				4947343018EB021C000FBC14 /* UIImage+MLRounded.h in Headers */,
+				4947343118EB021C000FBC14 /* UIImage+MLResized.h in Headers */,
+				4947343218EB021C000FBC14 /* UIImage+MLCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		494733EF18E9EE55000FBC14 /* MLImageFramework */ = {
+		494733EF18E9EE55000FBC14 /* MLUIImageTransformations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4947341318E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLImageFramework" */;
+			buildConfigurationList = 4947341318E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLUIImageTransformations" */;
 			buildPhases = (
 				494733EC18E9EE55000FBC14 /* Sources */,
 				494733ED18E9EE55000FBC14 /* Frameworks */,
 				494733EE18E9EE55000FBC14 /* CopyFiles */,
+				4947342D18EB020D000FBC14 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MLImageFramework;
-			productName = MLImageFramework;
-			productReference = 494733F018E9EE55000FBC14 /* libMLImageFramework.a */;
+			name = MLUIImageTransformations;
+			productName = MLUIImageTransformations;
+			productReference = 494733F018E9EE55000FBC14 /* libMLUIImageTransformations.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		494733FF18E9EE55000FBC14 /* MLImageFrameworkTests */ = {
+		494733FF18E9EE55000FBC14 /* MLUIImageTransformationsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4947341618E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLImageFrameworkTests" */;
+			buildConfigurationList = 4947341618E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLUIImageTransformationsTests" */;
 			buildPhases = (
 				494733FC18E9EE55000FBC14 /* Sources */,
 				494733FD18E9EE55000FBC14 /* Frameworks */,
@@ -176,9 +222,9 @@
 			dependencies = (
 				4947340718E9EE55000FBC14 /* PBXTargetDependency */,
 			);
-			name = MLImageFrameworkTests;
-			productName = MLImageFrameworkTests;
-			productReference = 4947340018E9EE55000FBC14 /* MLImageFrameworkTests.xctest */;
+			name = MLUIImageTransformationsTests;
+			productName = MLUIImageTransformationsTests;
+			productReference = 4947340018E9EE55000FBC14 /* MLUIImageTransformationsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -187,10 +233,11 @@
 		494733E818E9EE55000FBC14 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ML;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Miguel Lara";
 			};
-			buildConfigurationList = 494733EB18E9EE55000FBC14 /* Build configuration list for PBXProject "MLImageFramework" */;
+			buildConfigurationList = 494733EB18E9EE55000FBC14 /* Build configuration list for PBXProject "MLUIImageTransformations" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,8 +249,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				494733EF18E9EE55000FBC14 /* MLImageFramework */,
-				494733FF18E9EE55000FBC14 /* MLImageFrameworkTests */,
+				494733EF18E9EE55000FBC14 /* MLUIImageTransformations */,
+				494733FF18E9EE55000FBC14 /* MLUIImageTransformationsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494733FB18E9EE55000FBC14 /* MLImageFramework.m in Sources */,
+				4947341B18E9EEA1000FBC14 /* UIImage+MLRounded.m in Sources */,
+				4947342A18EA17E7000FBC14 /* UIImage+MLFrostedGlass.m in Sources */,
+				4947342518E9FBB6000FBC14 /* UIImage+MLCore.m in Sources */,
+				4947342218E9FBA9000FBC14 /* UIImage+MLResized.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4947341018E9EE55000FBC14 /* MLImageFrameworkTests.m in Sources */,
+				4947341018E9EE55000FBC14 /* MLUIImageTransformationsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +291,7 @@
 /* Begin PBXTargetDependency section */
 		4947340718E9EE55000FBC14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 494733EF18E9EE55000FBC14 /* MLImageFramework */;
+			target = 494733EF18E9EE55000FBC14 /* MLUIImageTransformations */;
 			targetProxy = 4947340618E9EE55000FBC14 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -329,11 +379,11 @@
 		4947341418E9EE55000FBC14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/MLImageFramework.dst;
+				DSTROOT = /tmp/MLUIImageTransformations.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MLImageFramework/MLImageFramework-Prefix.pch";
+				GCC_PREFIX_HEADER = "MLUIImageTransformations/MLUIImageTransformations-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MLUIImageTransformations;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -341,11 +391,11 @@
 		4947341518E9EE55000FBC14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/MLImageFramework.dst;
+				DSTROOT = /tmp/MLUIImageTransformations.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MLImageFramework/MLImageFramework-Prefix.pch";
+				GCC_PREFIX_HEADER = "MLUIImageTransformations/MLUIImageTransformations-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MLUIImageTransformations;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -359,13 +409,13 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MLImageFramework/MLImageFramework-Prefix.pch";
+				GCC_PREFIX_HEADER = "MLUIImageTransformations/MLUIImageTransformations-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "MLImageFrameworkTests/MLImageFrameworkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MLUIImageTransformationsTests/MLUIImageTransformationsTests-Info.plist";
+				PRODUCT_NAME = MLUIImageTransformationsTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -379,9 +429,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MLImageFramework/MLImageFramework-Prefix.pch";
-				INFOPLIST_FILE = "MLImageFrameworkTests/MLImageFrameworkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MLUIImageTransformations/MLUIImageTransformations-Prefix.pch";
+				INFOPLIST_FILE = "MLUIImageTransformationsTests/MLUIImageTransformationsTests-Info.plist";
+				PRODUCT_NAME = MLUIImageTransformationsTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -389,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		494733EB18E9EE55000FBC14 /* Build configuration list for PBXProject "MLImageFramework" */ = {
+		494733EB18E9EE55000FBC14 /* Build configuration list for PBXProject "MLUIImageTransformations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4947341118E9EE55000FBC14 /* Debug */,
@@ -398,21 +448,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4947341318E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLImageFramework" */ = {
+		4947341318E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLUIImageTransformations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4947341418E9EE55000FBC14 /* Debug */,
 				4947341518E9EE55000FBC14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4947341618E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLImageFrameworkTests" */ = {
+		4947341618E9EE55000FBC14 /* Build configuration list for PBXNativeTarget "MLUIImageTransformationsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4947341718E9EE55000FBC14 /* Debug */,
 				4947341818E9EE55000FBC14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,6 +1,6 @@
 //
-//  MLImageFrameworkTests.m
-//  MLImageFrameworkTests
+//  MLUIImageTransformationsTests.m
+//  MLUIImageTransformationsTests
 //
 //  Created by Miguel Lara on 31/03/14.
 //  Copyright (c) 2014 Miguel Lara. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface MLImageFrameworkTests : XCTestCase
+@interface MLUIImageTransformationsTests : XCTestCase
 
 @end
 
-@implementation MLImageFrameworkTests
+@implementation MLUIImageTransformationsTests
 
 - (void)setUp
 {

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "494733EF18E9EE55000FBC14"
-               BuildableName = "libMLImageFramework.a"
-               BlueprintName = "MLImageFramework"
-               ReferencedContainer = "container:MLImageFramework.xcodeproj">
+               BuildableName = "libMLUIImageTransformations.a"
+               BlueprintName = "MLUIImageTransformations"
+               ReferencedContainer = "container:MLUIImageTransformations.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "494733FF18E9EE55000FBC14"
-               BuildableName = "MLImageFrameworkTests.xctest"
-               BlueprintName = "MLImageFrameworkTests"
-               ReferencedContainer = "container:MLImageFramework.xcodeproj">
+               BuildableName = "MLUIImageTransformationsTests.xctest"
+               BlueprintName = "MLUIImageTransformationsTests"
+               ReferencedContainer = "container:MLUIImageTransformations.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
